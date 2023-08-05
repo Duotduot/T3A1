@@ -75,4 +75,7 @@ The package.json file contains metadata and dependencies for the application. It
 **F. Project Management:** Familiarity with project management methodologies(e.g Agile) to plan, track progress and meet project deadlines.  
 **G. Debugging:** The ability to identify and resolve issues during the development process.  
 
-5. **With reference to one of your own projects, discuss what knowledge or skills were required to complete your project, and to overcome challenges.**
+5. **With reference to one of your own projects, discuss what knowledge or skills were required to complete your project, and to overcome challenges.**  
+Referencing my first project, building a portfolio website. This project required me to have skills such as using web development languages. For this project I used HTML and CSS. These two languages were used to build the entire project. Since it was only a front-end build, no back-end was implemented. One challenge that I ovecame with this skill was building a responsive website that could display and adapt to any screen size. Another required skill was using a version control system like Git to manage code changes.I also implemented project management to track my progress on the project. Debugging was also another skill that I used throughout the whole process.  
+
+6. **With reference to one of your own projects, evaluate how effective your knowledge and skills were for this project, and suggest changes or improvements for future projects of a similar nature**
