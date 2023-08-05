@@ -84,15 +84,15 @@ Considering the fact that it was my first developer project, my skills were on a
 7. **Explain control flow, using an example from the JavaScript programming language**  
 Control flow refers to the order in which instructions or statements are executed in a program. In JavaScript, control flow determines the sequence of actions taken by the program based on conditions and decision-making statements. It allows the program to make choices, repeat actions, and branch to different parts of the code based on certain conditions. Here's an example:  
 
-// Example function to check if a number is positive, negative, or zero
-function checkNumberSign(number) {
-  if (number > 0) {
-    console.log('The number is positive.');
-  } else if (number < 0) {
-    console.log('The number is negative.');
-  } else {
-    console.log('The number is zero.');
-  }
+// Example function to check if a number is positive, negative, or zero  
+function checkNumberSign(number) {  
+  if (number > 0) {  
+    console.log('The number is positive.');  
+  } else if (number < 0) {  
+    console.log('The number is negative.');  
+  } else {  
+    console.log('The number is zero.');  
+  }  
 }  
 
 The function receives the 'number' as input. It checks the first condition using the 'if' statement: 'if (number > 0)'. If the condition evaluates to 'true,' it executes the code block inside the 'if' statement, which logs "The number is positive." to the console. If the first condition is 'false', the control moves to the next 'else if' statement: 'else if (number < 0)'. If this condition evaluates to 'true', it executes the code block inside the 'else if' statement, which logs "The number is negative." to the console. If both the 'if' and 'else if' conditions are 'false', the control falls back to the 'else' statement. The 'else' statement doesn't have a condition, and it acts as a default fallback. It executes its code block, which logs "The number is zero." to the console.  
