@@ -1,6 +1,6 @@
 1. **Provide an overview and description of a standard source control process for a large project**  
 A standard source control process is essential for managing code changes, collaboration with other developers and ensuring the stability of the project itself. Here's an overview of the source control process.  
-A. **Version Control System Selection:**  
+**A. Version Control System Selection:**  
 The first step is choosing a Version Control System.Git is a popular and widely used version control system. It offers distributed version control and it is recommended for its flexibility and perfomance.  
 B. **Repository Setup:**  
 Create a central repository that will serve as the single source of truth for the project. In the case pf Git, this would be a bare repository hosted on a remote serve, such as GitHub.  
