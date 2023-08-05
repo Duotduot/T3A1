@@ -36,26 +36,26 @@ Below is a high-level outline of the standard structure of a MERN stack applicat
 A. **Root Directory:**  
 The root directory contains configuration files and other top-level files necessary for the application.  
 B. **Backend:**  
-   - **Controllers:** This folder contains modules that handle business logic, processing incoming requests, and sending responses.  
-   - **Models:** This folder contains data schemas that define the structure of the data to be stored in the database.  
-   - **Routes:** Routes folder contains modules that define the application's API routes, specifying the corresponding controller methods to handle each route.  
-   - **Middlewares:** Middleware functions are in this folder, which can intercept and modify incoming requests before they reach the route handlers.  
-   - **Config:** Config folder may contain configuration files for environment variables, database connections, or other application settings.  
-   - **Index.js:** The main entry point for the backend. It sets up the Express application, connects to the database, and starts the server.  
+**Controllers:** This folder contains modules that handle business logic, processing incoming requests, and sending responses.  
+**Models:** This folder contains data schemas that define the structure of the data to be stored in the database.  
+**Routes:** Routes folder contains modules that define the application's API routes, specifying the corresponding controller methods to handle each route.  
+**Middlewares:** Middleware functions are in this folder, which can intercept and modify incoming requests before they reach the route handlers.  
+**Config:** Config folder may contain configuration files for environment variables, database connections, or other application settings.  
+**Index.js:** The main entry point for the backend. It sets up the Express application, connects to the database, and starts the server.  
 C. **Frontend:**  
-   - **Public:** The public folder holds static assets like HTML, CSS, images, and other files directly accessible by the users.  
-   - **Src:**  
-     - **Components:** The components folder contains reusable React components that make up the user interface.  
-     - **Containers:** Containers are higher-level components that connect the Redux state to the React components.  
-     - **Actions:** Redux actions, if used, are defined in this folder. These actions are dispatched to update the application state.  
-     - **Reducers:** This folder holds Redux reducers that specify how the application state changes in response to actions.  
-     - **Store:** The store folder contains the Redux store configuration, where the application state is managed.  
-     - **Services:** This folder may include utility functions, API service calls, and other shared services.  
-     - **App.js:** The main React component  that serves as the entry point for the frontend. It ties together other components to build the UI.  
-     - **Index.js:** The entry point for the frontend application, where the React app is rendered and mounted into the DOM.  
+**Public:** The public folder holds static assets like HTML, CSS, images, and other files directly accessible by the users.  
+**Src:**  
+**Components:** The components folder contains reusable React components that make up the user interface.  
+**Containers:** Containers are higher-level components that connect the Redux state to the React components.  
+**Actions:** Redux actions, if used, are defined in this folder. These actions are dispatched to update the application state.  
+**Reducers:** This folder holds Redux reducers that specify how the application state changes in response to actions.  
+**Store:** The store folder contains the Redux store configuration, where the application state is managed.  
+**Services:** This folder may include utility functions, API service calls, and other shared services.  
+**App.js:** The main React component  that serves as the entry point for the frontend. It ties together other components to build the UI.  
+**Index.js:** The entry point for the frontend application, where the React app is rendered and mounted into the DOM.  
 D. **Database:**  
-    - The database directory is not always present in the project structure, as MongoDB usually handles the database internally. However, it's good to mention that this is where the MongoDB data resides.  
+The database directory is not always present in the project structure, as MongoDB usually handles the database internally. However, it's good to mention that this is where the MongoDB data resides.  
 E. **Package.json:**  
-   - The package.json file contains metadata and dependencies for the application. It lists all the required npm packages for both backend and frontend.  
+The package.json file contains metadata and dependencies for the application. It lists all the required npm packages for both backend and frontend.  
 
 4. **A team is about to engage in a project, developing a website for a small business. What knowledge and skills would they need in order to develop the project?**
