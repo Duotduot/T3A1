@@ -58,4 +58,21 @@ The database directory is not always present in the project structure, as MongoD
 **E. Package.json:**  
 The package.json file contains metadata and dependencies for the application. It lists all the required npm packages for both backend and frontend.  
 
-4. **A team is about to engage in a project, developing a website for a small business. What knowledge and skills would they need in order to develop the project?**
+4. **A team is about to engage in a project, developing a website for a small business. What knowledge and skills would they need in order to develop the project?**  
+**A. Web Development Languages:**  
+**HTML**- To create the structure and content of the web pages.  
+**CSS**- To style and layout the website elements.  
+**Java**- To add interactivity and dynamic features to the website.  
+**B. Frontend Frameworks and Libraries:**  
+**React, Angular**- For building interactive frontend components.  
+**Bootstrap**- For responsive and consistent UI design.  
+**C. Backend Development:**  
+**Node.js, Django/Flask**- For server-side scripting and application logic.  
+**Express.js**- Backend frameworks for routing and middleware management.  
+**MySQL, PostgreSQL, MongoDB**- To store and retrieve data.  
+**D. Version Control:** Proficiency in using version control systems like Git to manage code changes.  
+**E. Testing:** Familiarity with testing methodologies to ensure the website's reliability.  
+**F. Project Management:** Familiarity with project management methodologies(e.g Agile) to plan, track progress and meet project deadlines.  
+**G. Debugging:** The ability to identify and resolve issues during the development process.  
+
+5. **With reference to one of your own projects, discuss what knowledge or skills were required to complete your project, and to overcome challenges.**
