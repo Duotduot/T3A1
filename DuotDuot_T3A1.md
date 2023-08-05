@@ -34,7 +34,8 @@ G. **Error Handling**- Quality software handles errors gracefully, providing mea
 3. **Outline a standard high level structure for a MERN stack application and explain the components**  
 Below is a high-level outline of the standard structure of a MERN stack application:  
 A. **Root Directory:**  
-    - The root directory contains configuration files and other top-level files necessary for the application.  
+    - The root directory contains configuration files and other top-level files necessary for the application. 
+     
 B. **Backend:**  
    - **Controllers:** This folder contains modules that handle business logic, processing incoming requests, and sending responses.  
    - **Models:** This folder contains data schemas that define the structure of the data to be stored in the database.  
