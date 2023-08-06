@@ -146,4 +146,41 @@ console.log(person.age); //Output: 31
 person.city = "New York";  
 console.log(person.city); //Output: "New York"  
 
-12. **Explain how JSON can be manipulated in JavaScript, using examples from the JavaScript programming language**
+12. **Explain how JSON can be manipulated in JavaScript, using examples from the JavaScript programming language**  
+JSON is a lightweight data interchange format that is widely used for data communication between servers and clients. JSON data can be easily manipulated using built-in functions for parsing and stringifying JSON objects. Here are some examples:  
+**A. JSON.parse():**- To convert a JSON string into a JavaScript object.  
+const jsonString = '{"name": "John", "age": 30, "city": "New York"}';  
+const jsonObject = JSON.parse(jsonString);  
+console.log(jsonObject.name); // Output: "John"  
+console.log(jsonObject.age); // Output: 30  
+**B. JSON.stringify():**- To convert a JavaScript object into a JSON string.  
+const person = {  
+  name: "Alice",  
+  age: 25,  
+  city: "Los Angeles",  
+};  
+const jsonString = JSON.stringify(person);  
+console.log(jsonString);  
+// Output: '{"name":"Alice","age":25,"city":"Los Angeles"}'  
+**C. Modifying JSON OBjects:**- To modify a JSON object  
+let jsonString = '{"name": "Bob", "age": 35, "city": "Chicago"}';  
+let jsonObject = JSON.parse(jsonString);  
+// Modify the properties of the object  
+jsonObject.age = 40;  
+jsonObject.city = "Dallas";  
+// Convert back to JSON string  
+let updatedJsonString = JSON.stringify(jsonObject);  
+console.log(updatedJsonString);  
+// Output: '{"name":"Bob","age":40,"city":"Dallas"}'  
+**D. Combining JSON Objects:**  
+let jsonString1 = '{"name": "Alice", "age": 25}';  
+let jsonString2 = '{"city": "New York", "occupation": "Engineer"}';  
+let jsonObject1 = JSON.parse(jsonString1);  
+let jsonObject2 = JSON.parse(jsonString2);  
+// Combine objects using Object.assign()  
+let combinedObject = Object.assign({}, jsonObject1, jsonObject2);  
+let combinedJsonString = JSON.stringify(combinedObject);  
+console.log(combinedJsonString);  
+// Output: '{"name":"Alice","age":25,"city":"New York","occupation":"Engineer"}'  
+
+13. **For the code snippet provided below, write comments for each line of code to explain its functionality. In your comments you must demonstrates your ability to recognise and identify functions, ranges and classes**
