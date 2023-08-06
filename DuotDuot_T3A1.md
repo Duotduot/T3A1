@@ -103,7 +103,15 @@ Type coercion is the automatic conversion of one data type to another in JavaScr
 let number = 42;  
 let text = "The answer is: " + number;  
 console.log(text); // Output: "The answer is: 42" 
- 
+
 In this example, we have a numeric variable 'number' and a string variable 'text'. When we concatenate the string "The answer is: " with the 'number' variable using the '+' operator, JavaScript automatically converts the numeric value to a string to perform the concatenation. This is an example of implicit type coercion.  
 
-9. **Explain data types, using examples from the JavaScript programming language**
+9. **Explain data types, using examples from the JavaScript programming language**  
+Data types are classifications that define the type of data a variable can hold. Since JavaScript is a dynamically typed language, the variables can change their data types during runtime. Below are some examples of data types used in JavaScript:  
+**Number**- Represents numeric values.(e.g 1, 2, 3)  
+**String**- Represents sequences of characters(text). (e.g "Hello, world!")  
+**Boolean**- Represents true or false values.(e.g true or false)  
+**Array**- Represents a list-like collection of elements.(e.g ["apple", "orange", "avocado"])  
+**Null**- Represents the intentional absence of any value.(e.g null)  
+
+10. **Explain how arrays can be manipulated in JavaScript, using examples from the JavaScript programming language**
