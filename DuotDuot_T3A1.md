@@ -97,4 +97,12 @@ function checkNumberSign(number) {
 
 The function receives the 'number' as input. It checks the first condition using the 'if' statement: 'if (number > 0)'. If the condition evaluates to 'true,' it executes the code block inside the 'if' statement, which logs "The number is positive." to the console. If the first condition is 'false', the control moves to the next 'else if' statement: 'else if (number < 0)'. If this condition evaluates to 'true', it executes the code block inside the 'else if' statement, which logs "The number is negative." to the console. If both the 'if' and 'else if' conditions are 'false', the control falls back to the 'else' statement. The 'else' statement doesn't have a condition, and it acts as a default fallback. It executes its code block, which logs "The number is zero." to the console.  
 
-8. **Explain type coercion, using examples from the JavaScript programming language**
+8. **Explain type coercion, using examples from the JavaScript programming language**  
+Type coercion is the automatic conversion of one data type to another in JavaScript when performing operations or comparisons. JavaScript is a dynamically typed language, which means the data types of variables are determined at runtime, and type coercion helps in handling various data type combinations. Here's is an example of type coercion:  
+let number = 42;  
+let text = "The answer is: " + number;  
+
+console.log(text); // Output: "The answer is: 42"  
+In this example, we have a numeric variable 'number' and a string variable 'text'. When we concatenate the string "The answer is: " with the 'number' variable using the '+' operator, JavaScript automatically converts the numeric value to a string to perform the concatenation. This is an example of implicit type coercion.  
+
+9. **Explain data types, using examples from the JavaScript programming language**
