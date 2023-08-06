@@ -128,4 +128,22 @@ console.log(fruits); //Output: ["apple", "orange", "avocado", "grape"]
 fruits[1] = "grapefruit";  
 console.log(fruits); //Output: ["apple", "grapefruit", "avocado"]  
 
-11. **Explain how objects can be manipulated in JavaScript, using examples from the JavaScript programming language**
+11. **Explain how objects can be manipulated in JavaScript, using examples from the JavaScript programming language**  
+Objects are a fundamental data structure used to store and manipulate collections of key-value pairs. Objects allow you to represent entities with properties and behaviors. Here are some examples of objects manipulation methods and examples:  
+**A. Creating an Object:**  
+let person = {  
+  name: "John",  
+  age: 21,  
+  isStudent: true,  
+};  
+**B. Accessing Object Properties:**  
+console.log(person.name); //Output: "John"  
+console.log(person.age); //Output: "21"  
+**C. Updating Object Properties:**  
+person.age = 31;  
+console.log(person.age); //Output: 31  
+**D. Adding New Properties:**  
+person.city = "New York";  
+console.log(person.city); //Output: "New York"  
+
+12. **Explain how JSON can be manipulated in JavaScript, using examples from the JavaScript programming language**
