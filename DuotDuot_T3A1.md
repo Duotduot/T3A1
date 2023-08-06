@@ -183,4 +183,64 @@ let combinedJsonString = JSON.stringify(combinedObject);
 console.log(combinedJsonString);  
 // Output: '{"name":"Alice","age":25,"city":"New York","occupation":"Engineer"}'  
 
-13. **For the code snippet provided below, write comments for each line of code to explain its functionality. In your comments you must demonstrates your ability to recognise and identify functions, ranges and classes**
+13. **For the code snippet provided below, write comments for each line of code to explain its functionality. In your comments you must demonstrates your ability to recognise and identify functions, ranges and classes**  
+
+// Define a class called "Car" with a constructor that takes a "brand" parameter.
+class Car {
+  constructor(brand) {
+    // Inside the constructor, set the instance variable "carname" to the value of the "brand" parameter.
+    this.carname = brand;
+  }
+  
+  // Define a method called "present" for the Car class.
+  present() {
+    // Inside the "present" method, return a string containing the carname.
+    return 'I have a ' + this.carname;
+  }
+}
+
+// Define a class called "Model" that extends the "Car" class.
+class Model extends Car {
+  // The "Model" class has a constructor that takes "brand" and "mod" (model) parameters.
+  constructor(brand, mod) {
+    // Call the constructor of the "Car" class using the "super" keyword, passing the "brand" parameter.
+    super(brand);
+    // Inside the "Model" constructor, set the instance variable "model" to the value of the "mod" parameter.
+    this.model = mod;
+  }
+  
+  // Define a method called "show" for the "Model" class.
+  show() {
+    // Inside the "show" method, return a string containing the result of calling the "present" method from the parent class ("Car")
+    // and concatenate it with the model information.
+    return this.present() + ', it was made in ' + this.model;
+  }
+}
+
+// Create an array "makes" containing car brands.
+let makes = ["Ford", "Holden", "Toyota"];
+
+// Create an array "models" containing numbers from 1980 to 2019.
+let models = Array.from(new Array(40), (x, i) => i + 1980);
+
+// Define a function called "randomIntFromInterval" that takes "min" and "max" parameters.
+// This function generates a random integer between "min" and "max" (inclusive) and returns it.
+function randomIntFromInterval(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) + min);
+}
+
+// Loop through each "model" in the "models" array.
+for (model of models) {
+  // Inside the loop, generate a random index to select a random make from the "makes" array.
+  make = makes[randomIntFromInterval(0, makes.length - 1)];
+  
+  // Generate another random index to select a random model from the "models" array.
+  model = models[randomIntFromInterval(0, makes.length - 1)];
+  
+  // Create a new instance of the "Model" class with the selected random "make" and "model" parameters.
+  mycar = new Model(make, model);
+  
+  // Call the "show" method on the "mycar" instance and log the result to the console.
+  console.log(mycar.show());
+}
+
