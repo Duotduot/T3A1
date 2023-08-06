@@ -114,4 +114,18 @@ Data types are classifications that define the type of data a variable can hold.
 **Array**- Represents a list-like collection of elements.(e.g ["apple", "orange", "avocado"])  
 **Null**- Represents the intentional absence of any value.(e.g null)  
 
-10. **Explain how arrays can be manipulated in JavaScript, using examples from the JavaScript programming language**
+10. **Explain how arrays can be manipulated in JavaScript, using examples from the JavaScript programming language**  
+Arrays are data types that allow you to store and manipulate collections of elements. You can perform various operations on arrays, such as adding, removing, updating and accessing elements. Here are some examples of arrays manipulation methods and examples:  
+**A. Creating an array:**  
+let fruits = ["apple", "orange", "avocado"];  
+**B. Accessing Elements:**  
+console.log(fruits[0]); //Output: "apple"  
+console.log(fruits[1]); //Output: "orange"  
+**C. Adding Elements:**  
+fruits.push("grape");  
+console.log(fruits); //Output: ["apple", "orange", "avocado", "grape"]  
+**D. Updating Elements:**  
+fruits[1] = "grapefruit";  
+console.log(fruits); //Output: ["apple", "grapefruit", "avocado"]  
+
+11. **Explain how objects can be manipulated in JavaScript, using examples from the JavaScript programming language**
